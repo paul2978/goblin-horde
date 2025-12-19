@@ -1,7 +1,7 @@
 # res://player/Player.gd  # This is the file path of the script
 extends CharacterBody2D  # Use a 2D character body to handle movement and collisions
 
-@export var speed: float = 400.0  # How fast the player moves left or right
+@export var speed: float = 500.0  # How fast the player moves left or right
 @export var jump_velocity: float = -400.0  # Vertical speed applied for the first jump (negative is up)
 @export var double_jump_velocity: float = -350.0  # Vertical speed applied for the double jump
 
